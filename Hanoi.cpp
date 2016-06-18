@@ -15,12 +15,12 @@ void hanoi(int n, char a, char b, char c) { // 把a上的n个盘子从a柱子借
     }
 }
 
-int main() {
-    int m;
-    cout << "输入盘子的数量: " << endl;
-    while(cin >> m) {
-        hanoi(m, 'A', 'B', 'C');
-    }
-    return 0;
-}
+//int main() {
+//    int m;
+//    cout << "输入盘子的数量: " << endl;
+//    while(cin >> m) {
+//        hanoi(m, 'A', 'B', 'C');
+//    }
+//    return 0;
+//}
 
